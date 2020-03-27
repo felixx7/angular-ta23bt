@@ -1,0 +1,197 @@
+
+@font-face {
+  font-family: Roboto;
+  src: url(FONT/Roboto-Black_2.ttf);
+}
+
+@font-face {
+  font-family: RobotoThin;
+  src: url(FONT/Roboto-Thin_1.ttf);
+}
+
+body {
+  background: #953e46 !important;
+}
+.box-white {
+  background:#953e46;
+  border:solid white;
+}
+
+.font-title {
+  font-size: xx-large;
+}
+
+.grad {
+  background: black;
+  background: linear-gradient(to bottom right, black, gray);
+  color: white;
+  text-align: center;
+}
+
+.img2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  margin-top: 16%;
+}
+
+.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.img4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  margin-left: 67.6%;
+}
+
+.img3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  margin-left: 69%;
+  margin-top: 15.6%;
+}
+
+.img8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  margin-left: 67.5%;
+  margin-top: 15.6%;
+}
+
+.img9 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  margin-left: 66.2%;
+}
+
+.text {
+  font-family: Roboto;
+  position: absolute;
+  width: 100%;
+  /* for IE 6 */
+  z-index: 500;
+  color: white;
+  font-size: 3.5vw;
+  height: 30.8%;
+  /*background: black;*/
+  /*opacity: 0.5;*/
+  padding: 6% 3%;
+  z-index: 1000;
+}
+
+.white-text {
+  font-family: sans-serif;
+  color: white;
+
+}
+
+.text3 {
+  font-family: Roboto;
+  position: absolute;
+  width: 100%;
+  /* for IE 6 */
+  z-index: 500;
+  color: white;
+  font-size: 3.5vw;
+  height: 30.8%;
+  /*background: black;
+       opacity: 0.5;*/
+  padding: 6% 3%;
+  margin-left: 69%;
+  z-index: 1000;
+}
+
+.text2 {
+  font-family: RobotoThin;
+  position: absolute;
+  width: 100%;
+  /* for IE 6 */
+  z-index: 500;
+  color: white;
+  font-size: 0.8vw;
+  width: 100%;
+  height: 58%;
+  /*background: red;
+       opacity: 0.5;*/
+  padding: 3% 4% 0 4%;
+  z-index: 1000;
+  margin-top: 21%;
+}
+
+.text5 {
+  font-family: RobotoThin;
+  position: absolute;
+  width: 100%;
+  /* for IE 6 */
+  z-index: 500;
+  color: white;
+  font-size: 1vw;
+  width: 100%;
+  height: 58%;
+  /*background: red;
+       opacity: 0.5;*/
+  padding: 3% 4% 0 4%;
+  z-index: 1000;
+  margin-top: 21%;
+  margin-left: 69%;
+}
+
+.text4 {
+  font-family: RobotoThin;
+  position: absolute;
+  width: 100%;
+  /* for IE 6 */
+  z-index: 500;
+  color: white;
+  font-size: 0.8vw;
+  width: 100%;
+  height: 58%;
+  /*background: red;
+       opacity: 0.5;*/
+  padding: 3% 4% 0 4%;
+  z-index: 1000;
+  margin-top: 21%;
+  margin-left: 67.5%;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.box-form {
+  position: absolute;
+  height: 37%;
+  width: 66%;
+  z-index: 10000;
+  margin-top: 38%;
+  margin-left: 33.5%;
+  font-family: RobotoThin;
+  font-size: 1vw;
+
+}
+
+.box-form ::placeholder {
+  color: white;
+}
+
+.box-form input[type='text'] {
+  color: white;
+}
+
+.box-form textarea {
+  color: white;
+}
